@@ -7,66 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65265881287ADC64007A8BB4 /* DNButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65265880287ADC64007A8BB4 /* DNButton.swift */; };
 		654CF45B287829A900A18BC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654CF45A287829A900A18BC9 /* AppDelegate.swift */; };
 		654CF45D287829A900A18BC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654CF45C287829A900A18BC9 /* SceneDelegate.swift */; };
 		654CF45F287829A900A18BC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654CF45E287829A900A18BC9 /* ViewController.swift */; };
-		654CF462287829A900A18BC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654CF460287829A900A18BC9 /* Main.storyboard */; };
 		654CF464287829AA00A18BC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654CF463287829AA00A18BC9 /* Assets.xcassets */; };
 		654CF467287829AA00A18BC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654CF465287829AA00A18BC9 /* LaunchScreen.storyboard */; };
-		654CF472287829AA00A18BC9 /* Egg_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654CF471287829AA00A18BC9 /* Egg_TimerTests.swift */; };
-		654CF47C287829AA00A18BC9 /* Egg_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654CF47B287829AA00A18BC9 /* Egg_TimerUITests.swift */; };
-		654CF47E287829AA00A18BC9 /* Egg_TimerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654CF47D287829AA00A18BC9 /* Egg_TimerUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		654CF46E287829AA00A18BC9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 654CF44F287829A800A18BC9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 654CF456287829A900A18BC9;
-			remoteInfo = "Egg Timer";
-		};
-		654CF478287829AA00A18BC9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 654CF44F287829A800A18BC9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 654CF456287829A900A18BC9;
-			remoteInfo = "Egg Timer";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		65265880287ADC64007A8BB4 /* DNButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNButton.swift; sourceTree = "<group>"; };
 		654CF457287829A900A18BC9 /* Egg Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Egg Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		654CF45A287829A900A18BC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		654CF45C287829A900A18BC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		654CF45E287829A900A18BC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		654CF461287829A900A18BC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		654CF463287829AA00A18BC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		654CF466287829AA00A18BC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		654CF468287829AA00A18BC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		654CF46D287829AA00A18BC9 /* Egg TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Egg TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		654CF471287829AA00A18BC9 /* Egg_TimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Egg_TimerTests.swift; sourceTree = "<group>"; };
-		654CF477287829AA00A18BC9 /* Egg TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Egg TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		654CF47B287829AA00A18BC9 /* Egg_TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Egg_TimerUITests.swift; sourceTree = "<group>"; };
-		654CF47D287829AA00A18BC9 /* Egg_TimerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Egg_TimerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		654CF454287829A900A18BC9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		654CF46A287829AA00A18BC9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		654CF474287829AA00A18BC9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,8 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				654CF459287829A900A18BC9 /* Egg Timer */,
-				654CF470287829AA00A18BC9 /* Egg TimerTests */,
-				654CF47A287829AA00A18BC9 /* Egg TimerUITests */,
 				654CF458287829A900A18BC9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				654CF457287829A900A18BC9 /* Egg Timer.app */,
-				654CF46D287829AA00A18BC9 /* Egg TimerTests.xctest */,
-				654CF477287829AA00A18BC9 /* Egg TimerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,29 +59,12 @@
 				654CF45A287829A900A18BC9 /* AppDelegate.swift */,
 				654CF45C287829A900A18BC9 /* SceneDelegate.swift */,
 				654CF45E287829A900A18BC9 /* ViewController.swift */,
-				654CF460287829A900A18BC9 /* Main.storyboard */,
+				65265880287ADC64007A8BB4 /* DNButton.swift */,
 				654CF463287829AA00A18BC9 /* Assets.xcassets */,
 				654CF465287829AA00A18BC9 /* LaunchScreen.storyboard */,
 				654CF468287829AA00A18BC9 /* Info.plist */,
 			);
 			path = "Egg Timer";
-			sourceTree = "<group>";
-		};
-		654CF470287829AA00A18BC9 /* Egg TimerTests */ = {
-			isa = PBXGroup;
-			children = (
-				654CF471287829AA00A18BC9 /* Egg_TimerTests.swift */,
-			);
-			path = "Egg TimerTests";
-			sourceTree = "<group>";
-		};
-		654CF47A287829AA00A18BC9 /* Egg TimerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				654CF47B287829AA00A18BC9 /* Egg_TimerUITests.swift */,
-				654CF47D287829AA00A18BC9 /* Egg_TimerUITestsLaunchTests.swift */,
-			);
-			path = "Egg TimerUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,42 +87,6 @@
 			productReference = 654CF457287829A900A18BC9 /* Egg Timer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		654CF46C287829AA00A18BC9 /* Egg TimerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 654CF484287829AA00A18BC9 /* Build configuration list for PBXNativeTarget "Egg TimerTests" */;
-			buildPhases = (
-				654CF469287829AA00A18BC9 /* Sources */,
-				654CF46A287829AA00A18BC9 /* Frameworks */,
-				654CF46B287829AA00A18BC9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				654CF46F287829AA00A18BC9 /* PBXTargetDependency */,
-			);
-			name = "Egg TimerTests";
-			productName = "Egg TimerTests";
-			productReference = 654CF46D287829AA00A18BC9 /* Egg TimerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		654CF476287829AA00A18BC9 /* Egg TimerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 654CF487287829AA00A18BC9 /* Build configuration list for PBXNativeTarget "Egg TimerUITests" */;
-			buildPhases = (
-				654CF473287829AA00A18BC9 /* Sources */,
-				654CF474287829AA00A18BC9 /* Frameworks */,
-				654CF475287829AA00A18BC9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				654CF479287829AA00A18BC9 /* PBXTargetDependency */,
-			);
-			name = "Egg TimerUITests";
-			productName = "Egg TimerUITests";
-			productReference = 654CF477287829AA00A18BC9 /* Egg TimerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +99,6 @@
 				TargetAttributes = {
 					654CF456287829A900A18BC9 = {
 						CreatedOnToolsVersion = 13.4.1;
-					};
-					654CF46C287829AA00A18BC9 = {
-						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = 654CF456287829A900A18BC9;
-					};
-					654CF476287829AA00A18BC9 = {
-						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = 654CF456287829A900A18BC9;
 					};
 				};
 			};
@@ -220,8 +116,6 @@
 			projectRoot = "";
 			targets = (
 				654CF456287829A900A18BC9 /* Egg Timer */,
-				654CF46C287829AA00A18BC9 /* Egg TimerTests */,
-				654CF476287829AA00A18BC9 /* Egg TimerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,21 +127,6 @@
 			files = (
 				654CF467287829AA00A18BC9 /* LaunchScreen.storyboard in Resources */,
 				654CF464287829AA00A18BC9 /* Assets.xcassets in Resources */,
-				654CF462287829A900A18BC9 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		654CF46B287829AA00A18BC9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		654CF475287829AA00A18BC9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,51 +139,14 @@
 			files = (
 				654CF45F287829A900A18BC9 /* ViewController.swift in Sources */,
 				654CF45B287829A900A18BC9 /* AppDelegate.swift in Sources */,
+				65265881287ADC64007A8BB4 /* DNButton.swift in Sources */,
 				654CF45D287829A900A18BC9 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		654CF469287829AA00A18BC9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				654CF472287829AA00A18BC9 /* Egg_TimerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		654CF473287829AA00A18BC9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				654CF47E287829AA00A18BC9 /* Egg_TimerUITestsLaunchTests.swift in Sources */,
-				654CF47C287829AA00A18BC9 /* Egg_TimerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		654CF46F287829AA00A18BC9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 654CF456287829A900A18BC9 /* Egg Timer */;
-			targetProxy = 654CF46E287829AA00A18BC9 /* PBXContainerItemProxy */;
-		};
-		654CF479287829AA00A18BC9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 654CF456287829A900A18BC9 /* Egg Timer */;
-			targetProxy = 654CF478287829AA00A18BC9 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		654CF460287829A900A18BC9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				654CF461287829A900A18BC9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		654CF465287829AA00A18BC9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +284,7 @@
 				INFOPLIST_FILE = "Egg Timer/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +312,7 @@
 				INFOPLIST_FILE = "Egg Timer/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -483,82 +325,6 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		654CF485287829AA00A18BC9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 33389KCH5W;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "neskdan812Test.Egg-TimerTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Egg Timer.app/Egg Timer";
-			};
-			name = Debug;
-		};
-		654CF486287829AA00A18BC9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 33389KCH5W;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "neskdan812Test.Egg-TimerTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Egg Timer.app/Egg Timer";
-			};
-			name = Release;
-		};
-		654CF488287829AA00A18BC9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 33389KCH5W;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "neskdan812Test.Egg-TimerUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Egg Timer";
-			};
-			name = Debug;
-		};
-		654CF489287829AA00A18BC9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 33389KCH5W;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "neskdan812Test.Egg-TimerUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Egg Timer";
 			};
 			name = Release;
 		};
@@ -579,24 +345,6 @@
 			buildConfigurations = (
 				654CF482287829AA00A18BC9 /* Debug */,
 				654CF483287829AA00A18BC9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		654CF484287829AA00A18BC9 /* Build configuration list for PBXNativeTarget "Egg TimerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				654CF485287829AA00A18BC9 /* Debug */,
-				654CF486287829AA00A18BC9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		654CF487287829AA00A18BC9 /* Build configuration list for PBXNativeTarget "Egg TimerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				654CF488287829AA00A18BC9 /* Debug */,
-				654CF489287829AA00A18BC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
